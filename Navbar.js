@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-white-tertiary text-center">
             <div className="container-fluid">
-                <a href="index.html"><img src="Logo TECNIC.png" className="logo" alt="Logo TECNIC" /></a>
+                <a href="index.html"><img src="Logo TECNIC.png" className="logo" alt="Logo TECNIC" style={{ width: '70px', height: 'auto' }} /></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
